@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "slug": "foreman",
+  "displayName": "Foreman",
+  "purpose": "Deterministic runner and state store for AI-driven software work. Ideas go in, and gated, verified work comes out. Windmill runs it, Postgres holds the truth, and agents do the work.",
+  "collectsPersonalData": true,
+  "quota": {
+    "pods": 12,
+    "cpu": "6",
+    "memory": "5Gi",
+    "ephemeralStorage": "11Gi",
+    "storage": "3Gi",
+    "persistentVolumeClaims": 3
+  },
+  "deployTarget": "cluster",
+  "createdOn": "2026-10-28"
+}
