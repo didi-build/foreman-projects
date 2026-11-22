@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "slug": "foreman-app",
+  "displayName": "Foreman App",
+  "purpose": "Foreman's own app: the planning chat, the plans and items views, and the system topology, in one installable phone-first app.",
+  "collectsPersonalData": true,
+  "quota": {
+    "pods": 12,
+    "cpu": "6",
+    "memory": "5Gi",
+    "ephemeralStorage": "11Gi",
+    "storage": "3Gi",
+    "persistentVolumeClaims": 3
+  },
+  "deployTarget": "cloudflare",
+  "createdOn": "2026-11-22"
+}
